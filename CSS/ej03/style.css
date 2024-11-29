@@ -1,0 +1,82 @@
+div div {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+.fila1 .col1 {
+    background-color: #ff0000;
+    cursor: pointer;
+}
+.fila1 .col2 {
+    background-color: #00ff00;
+    cursor:alias;
+}
+.fila1 .col3 {
+    background-color: #0000ff;
+    cursor:all-scroll;
+}
+.fila1 .col4 {
+    background-color: #ff9900;
+    cursor:auto;
+}
+.fila1 .col5 {
+    background-color: #9900ff;
+    cursor:copy;
+}
+
+.fila2 .col1 {
+    background-color: #ff0000;
+    cursor:none;
+}
+.fila2 .col2 {
+    background-color: #00ff00;
+    cursor:e-resize;
+}
+.fila2 .col3 {
+    background-color: #0000ff;
+    cursor:wait;
+}
+.fila2 .col4 {
+    background-color: #ff9900;
+    cursor:grabbing;
+}
+.fila2 .col5 {
+    background-color: #9900ff;
+    cursor:progress;
+}
+
+.fila3 .col1 {
+    background-color: #ff0000;
+    cursor:no-drop;
+}
+.fila3 .col2 {
+    background-color: #00ff00;
+    cursor:ne-resize;
+}
+.fila3 .col3 {
+    background-color: #0000ff;
+    cursor:crosshair;
+}
+.fila3 .col4 {
+    background-color: #ff9900;
+    cursor:nesw-resize;
+}
+.fila3 .col5 {
+    background-color: #9900ff;
+    cursor:help;
+}
+
+.fila2 div {
+    border-radius: 5px;
+}
+
+.fila3 div {
+    border-radius: 50%;
+}
+
+.fila1, .fila2, .fila3 {
+    display: grid;
+    grid-template-columns: repeat(5, 110%);
+
+}
