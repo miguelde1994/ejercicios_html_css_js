@@ -2,69 +2,100 @@ div div {
     width: 50px;
     height: 50px;
     margin: 5px;
+    margin-bottom: 10px;
 }
 
 .fila1 .col1 {
     background-color: #ff0000;
     cursor: pointer;
+    border: 3px solid;
+    border-color: #9900ff;
 }
 .fila1 .col2 {
     background-color: #00ff00;
     cursor:alias;
+    border: 3px double;
+    border-color: #ff0000;
 }
 .fila1 .col3 {
     background-color: #0000ff;
     cursor:all-scroll;
+    border: 3px dashed;
+    border-color: #00ff00;
 }
 .fila1 .col4 {
     background-color: #ff9900;
     cursor:auto;
+    border: 3px dotted;
+    border-color: #0000ff;
 }
 .fila1 .col5 {
     background-color: #9900ff;
     cursor:copy;
+    border: 3px groove;
+    border-color: #ff9900;
 }
 
 .fila2 .col1 {
     background-color: #ff0000;
-    cursor:none;
+    cursor: pointer;
+    border: 3px solid;
+    border-color: #9900ff;
 }
 .fila2 .col2 {
     background-color: #00ff00;
-    cursor:e-resize;
+    cursor:alias;
+    border: 3px double;
+    border-color: #ff0000;
 }
 .fila2 .col3 {
     background-color: #0000ff;
-    cursor:wait;
+    cursor:all-scroll;
+    border: 3px dashed;
+    border-color: #00ff00;
 }
 .fila2 .col4 {
     background-color: #ff9900;
-    cursor:grabbing;
+    cursor:auto;
+    border: 3px dotted;
+    border-color: #0000ff;
 }
 .fila2 .col5 {
     background-color: #9900ff;
-    cursor:progress;
+    cursor:copy;
+    border: 3px groove;
+    border-color: #ff9900;
 }
 
 .fila3 .col1 {
     background-color: #ff0000;
-    cursor:no-drop;
+    cursor: pointer;
+    border: 3px solid;
+    border-color: #9900ff;
 }
 .fila3 .col2 {
     background-color: #00ff00;
-    cursor:ne-resize;
+    cursor:alias;
+    border: 3px double;
+    border-color: #ff0000;
 }
 .fila3 .col3 {
     background-color: #0000ff;
-    cursor:crosshair;
+    cursor:all-scroll;
+    border: 3px dashed;
+    border-color: #00ff00;
 }
 .fila3 .col4 {
     background-color: #ff9900;
-    cursor:nesw-resize;
+    cursor:auto;
+    border: 3px dotted;
+    border-color: #0000ff;
 }
 .fila3 .col5 {
     background-color: #9900ff;
-    cursor:help;
+    cursor:copy;
+    border: 3px groove;
+    border-color: #ff9900;
 }
 
 .fila2 div {
@@ -77,6 +108,6 @@ div div {
 
 .fila1, .fila2, .fila3 {
     display: grid;
-    grid-template-columns: repeat(5, 110%);
+    grid-template-columns: repeat(5, 120%);
 
 }
