@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ej03</title>
+</head>
+<body>
+        <form action="" method="post">
+            <label>Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre"/></br>            
+            <label>Apellidos:</label>
+            <input type="text" name="apellidos" id="apellidos" placeholder="Apellidos"/></br>
+            <label>Dirección:</label></br>
+            <input type="text" name="tipoVia" id="tipoVia" placeholder="Tipo de vía"/></br>
+            <input type="text" name="nombreVia" id="nombreVia" placeholder="Nombre de la vía"/></br>
+            <input type="text" name="codigoPostal" id="codigoPostal" placeholder="Codigo postal"/></br>
+            <input type="text" name="ciudad" id="ciudad" placeholder="Ciudad"/></br>
+            <input type="text" name="provincia" id="provincia" placeholder="Provincia"/></br>
+            <input type="text" name="pais" id="pais" placeholder="País"/></li></br>
+            <label>Fecha de nacimiento:</label>
+            <input type="date" name="fechaNacimiento" id="fechaNacimiento" placeholder="Fecha nacimiento"/></br>
+            <label>Nota media de Universidad:</label>
+            <input type="number" min="0" max="10" step="0.1" name="notaMediaUniversidad" id="notaMediaUniversidad" placeholder="Nota media en Universidad"/></br>
+            <label>Número de teléfono:</label>
+            <input type="tel" pattern="[6-9][0-9]{8}" name="numeroTelefono" id="numeroTelefono" placeholder="Numero de teléfono"/></br>
+            <label>E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="Correo electrónico"/></br>
+            <label>Introducir contraseña:</label>
+            <input type="password" name="contrasena" id="contrasena" placeholder="Contraseña"/></br>
+            <label>Repetir contraseña:</label>
+            <input type="password" name="contrasena_2" id="contrasena_2" placeholder="Repetir contraseña"/></br>
+            <label>Seleccionar país:</label></br>
+            <input type="radio" name="pais" id="espana" value="espana"/><label for="espana">España</label>
+            <input type="radio" name="pais" id="francia" value="francia"/><label for="francia">Francia</label>
+            <input type="radio" name="pais" id="portugal" value="portugal"/><label for="portugal">Portugal</label>
+            <input type="radio" name="pais" id="andorra" value="andorra"/><label for="andorra">Andorra</label></br>
+            <label>Tipo de cuenta:</label>
+            <select name="tipoCuenta" id="tipoCuenta">
+                <option value="gratuita" title="Gratis!">Gratuita</option>
+                <option value="basica" title="Solo pagas un café al mes!">Básica</option>
+                <option value="premium" title="Lo tienes todo!">Premium</option>
+            </select></br>
+            <label>Sobre mí:</label></br>
+            <textarea type="text" name="sobreMi" id="sobreMi" placeholder="Sobre mi"></textarea></br>
+            <label>Foto de perfil:</label>
+            <input type="file" name="foto" id="foto" placeholder="Foto perfil" accept=".png,.jpg,.jpeg"/></br>
+            <label>CV:</label>
+            <input type="file" name="cv" id="cv" placeholder="Subir CV" accept=".pdf"/></br>
+        </form>
+    
+</body>
+</html>
+
+
